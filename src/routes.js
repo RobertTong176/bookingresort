@@ -5,10 +5,10 @@ import Room from "./pages/Room";
 import SingleRoom from "./pages/SingleRoom";
 
 const routes = [
-  { path: "/", page: Home },
-  { path: "*", page: NotFound },
-  { path: "/error", page: Error },
-  { path: "/room", page: Room },
-  { path: "/singleroom", page: SingleRoom },
+  { path: "/", page: Home, isShowHeader: true },
+  { path: "*", page: NotFound, isShowHeader: true },
+  { path: "/error", page: Error, isShowHeader: true },
+  { path: "/room", page: Room, isShowHeader: true },
+  { path: "/singleroom", page: SingleRoom, isShowHeader: true },
 ];
 export default routes;
